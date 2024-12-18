@@ -20,7 +20,6 @@ async function loadCharactersForDungeons(totalDungeons) {
 
   const allCharacterData = await Promise.all(characterPromises);
   characters = allCharacterData.flat();
-  console.log("Personajes cargados correctamente:", characters);
 }
 
 // Cargar enemigos desde la carpeta enemies
@@ -41,7 +40,6 @@ async function loadEnemiesForDungeons(totalDungeons) {
 
   const allEnemyData = await Promise.all(enemyPromises);
   enemies = allEnemyData.flat();
-  console.log("Enemigos cargados correctamente:", enemies);
 }
 
 // Cargar mazmorras y los archivos relacionados
@@ -53,7 +51,6 @@ export async function loadGameData() {
     });
 
     dungeons = dungeonsData;
-    console.log("Mazmorras cargadas correctamente:", dungeons);
 
     const totalDungeons = dungeons.length || 5; // Por defecto asume 5 mazmorras
     await Promise.all([
@@ -61,7 +58,6 @@ export async function loadGameData() {
       loadEnemiesForDungeons(totalDungeons)
     ]);
 
-    console.log("Todos los datos cargados correctamente.");
   } catch (error) {
     console.error("Error al cargar los datos del juego:", error);
   }

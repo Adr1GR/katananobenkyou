@@ -3,8 +3,6 @@ import {
   startDungeon,
   resetGame,
   updateHealthBar,
-  startBackgroundMusic,
-  stopBackgroundMusic,
 } from "./game.js";
 
 export function setBackground(imagePath = "./assets/images/background.png") {
@@ -84,7 +82,7 @@ export function generateDungeonButtons() {
     button.addEventListener("mouseover", () => {
       hoverSound.currentTime = 0; // Reinicia el sonido
       hoverSound.play();
-    });
+    });    
 
     button.addEventListener("click", () => {
       clickSound.currentTime = 0; // Reinicia el sonido
@@ -93,9 +91,16 @@ export function generateDungeonButtons() {
       startDungeon(dungeon.level);
     });
 
+    // Asegúrate de que `button` tenga `position: relative` para que los hijos no interfieran con los eventos
+    button.style.position = "relative";
+
     // Estructura final del botón
     button.appendChild(buttonBackground);
     button.appendChild(buttonText);
+
+    // Aplica estilos al botón para que los eventos cubran todo el área
+    buttonBackground.style.pointerEvents = "none";
+    buttonText.style.pointerEvents = "none"; // Evita que los eventos se disparen en elementos hijos
 
     columns[difficulty].appendChild(button);
   });
@@ -175,6 +180,9 @@ export function showGameOverModal(isVictory, failedCharacter) {
   const resultTitle = document.getElementById("result-title");
   const statsList = document.getElementById("game-stats");
 
+  const inputBox = document.getElementById("input-box");
+  inputBox.blur();
+
   // Actualiza el título del modal según el resultado
   resultTitle.textContent = isVictory ? "Victory" : "Defeat";
   resultTitle.classList.toggle("text-green-500", isVictory);
@@ -200,7 +208,8 @@ export function showGameOverModal(isVictory, failedCharacter) {
   modal.classList.remove("hidden");
 
   // Configura el botón para cerrar el modal
-  document.getElementById("close-modal").addEventListener("click", () => {
+  const closeModalButton = document.getElementById("close-modal");
+  closeModalButton.addEventListener("click", () => {
     modal.classList.add("hidden");
     resetGame(); // Reinicia el juego después de cerrar
     setBackground(); // Restablece el fondo a wallpaper.png

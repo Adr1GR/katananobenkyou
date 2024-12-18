@@ -7,6 +7,8 @@ import {
   clearBackground,
 } from "./ui.js";
 
+import { playSound } from "./audio.js";
+
 let lives = 3;
 let currentEnemy = null;
 let currentCharacter = null;
@@ -15,48 +17,6 @@ let dungeonEnemiesLeft = 0;
 let currentDungeonLevel = 0;
 let availableCharacters = [];
 let seenCharacters = []; // Almacena los caracteres vistos en la mazmorra actual
-
-// Definir los sonidos base
-const hitSoundBase = new Audio("./assets/sounds/hit.mp3");
-const loseLifeSoundBase = new Audio("./assets/sounds/lose-life.mp3");
-const winSoundBase = new Audio("./assets/sounds/win.mp3");
-const loseBattleSoundBase = new Audio("./assets/sounds/lose.mp3");
-
-// Configuración de volumen para los sonidos base
-hitSoundBase.volume = 0.7;
-loseLifeSoundBase.volume = 0.4;
-winSoundBase.volume = 0.5;
-loseBattleSoundBase.volume = 0.5;
-
-// Función auxiliar para reproducir sonidos solapables
-function playSound(audioBase) {
-  const soundClone = audioBase.cloneNode(); // Crea una copia del sonido base
-  soundClone.play();
-}
-// Crear el objeto para la música de fondo
-export const backgroundMusic = new Audio(
-  "./assets/sounds/background-music.wav"
-);
-
-// Configurar la música para que se repita
-backgroundMusic.loop = true;
-backgroundMusic.volume = 0.15; // Ajusta el volumen según sea necesario
-
-export function startBackgroundMusic() {
-  backgroundMusic
-    .play()
-    .then(() => {
-      console.log("Background music started successfully.");
-    })
-    .catch((error) => {
-      console.warn("Background music could not start:", error);
-    });
-}
-
-export function stopBackgroundMusic() {
-  backgroundMusic.pause();
-  backgroundMusic.currentTime = 0; // Reinicia la canción
-}
 
 export function startDungeon(level) {
   const dungeon = dungeons.find((d) => d.level === level);
@@ -174,7 +134,7 @@ export function checkInput() {
 
   if (input === enemyCharacter) {
     currentEnemyHp--;
-    playSound(hitSoundBase); // Reproducir sonido solapable de golpe
+    playSound("hit"); // Reproducir sonido solapable de golpe
 
     updateHealthBar(currentEnemyHp, currentEnemy.hp);
 
@@ -197,11 +157,11 @@ export function checkInput() {
     }
   } else {
     if (lives > 1) {
-      playSound(loseLifeSoundBase); // Reproducir sonido solapable de pérdida de vida
+      playSound("loseLife"); // Reproducir sonido solapable de pérdida de vida
     } else {
-      playSound(loseBattleSoundBase);
+      playSound("loseBattle");
     }
-    
+
     lives--;
     updateLives();
     if (lives <= 0) {
@@ -211,7 +171,7 @@ export function checkInput() {
 }
 
 function winGame() {
-  playSound(winSoundBase); // Reproducir sonido solapable de victoria
+  playSound("win"); // Reproducir sonido solapable de victoria
   showGameOverModal(true, seenCharacters, []);
   toggleVisibility("exit-dungeon", false);
   setBackground();
@@ -265,8 +225,6 @@ export function exitDungeon() {
   toggleVisibility("enemy-image", false);
   toggleVisibility("player-controls", false);
   toggleVisibility("exit-dungeon", false); // Ocultar el botón al salir de la mazmorra
-
-  console.log("Has salido de la mazmorra.");
 }
 
 function updatePlayerHealthBar(currentHp, maxHp) {

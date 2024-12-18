@@ -3,7 +3,7 @@
     "name": "洞窟の試練",
     "level": 1,
     "image": "./assets/images/dungeon_level1/dungeon1.png",
-    "enemies": 1,
+    "enemies": 10,
     "bosses": 1
   },
   {

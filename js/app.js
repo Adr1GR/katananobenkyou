@@ -1,6 +1,11 @@
 import { loadGameData } from "./data.js";
-import { generateDungeonButtons, toggleVisibility, setBackground } from "./ui.js";
-import { checkInput, backgroundMusic, startBackgroundMusic, stopBackgroundMusic, exitDungeon } from "./game.js";
+import {
+  generateDungeonButtons,
+  toggleVisibility,
+  setBackground,
+} from "./ui.js";
+import { checkInput, exitDungeon } from "./game.js";
+import { startBackgroundMusic, stopBackgroundMusic, sounds } from "./audio.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
   setBackground(); // Usa wallpaper.png por defecto
@@ -16,11 +21,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   const muteButton = document.getElementById("mute-button");
   if (muteButton) {
     muteButton.addEventListener("click", () => {
-      if (backgroundMusic.muted) {
-        backgroundMusic.muted = false;
+      if (sounds["background"].paused) {
+        // Cambié de .pause a .paused
+        startBackgroundMusic();
         muteButton.textContent = "🔊";
       } else {
-        backgroundMusic.muted = true;
+        stopBackgroundMusic();
         muteButton.textContent = "🔇";
       }
     });
