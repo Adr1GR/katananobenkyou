@@ -1,0 +1,44 @@
+[
+    {
+        "type": "enemy",
+        "name": "Cave Dweller Rock Mimic",
+        "image": "./assets/images/dungeon_level1/cave_dweller_rock_mimic.png",
+        "dungeon_level": 1,
+        "hp" : 1
+    },
+    {
+        "type": "enemy",
+        "name": "Cave Dweller Blind Dragon",
+        "image": "./assets/images/dungeon_level1/cave_dweller_blind_dragon.png",
+        "dungeon_level": 1,
+        "hp" : 1
+    },
+    {
+        "type": "enemy",
+        "name": "Cave Dweller Worm",
+        "image": "./assets/images/dungeon_level1/cave_dweller_worm.png",
+        "dungeon_level": 1,
+        "hp" : 1
+    },
+    {
+        "type": "enemy",
+        "name": "Ant Lion",
+        "image": "./assets/images/dungeon_level1/ant_lion.png",
+        "dungeon_level": 1,
+        "hp" : 1
+    },
+    {
+        "type": "enemy",
+        "name": "Giant Bug Death Worm",
+        "image": "./assets/images/dungeon_level1/giant_bug_death_worm.png",
+        "dungeon_level": 1,
+        "hp" : 2
+    },
+    {
+        "type": "boss",
+        "name": "Boss Earth Dragon",
+        "image": "./assets/images/dungeon_level1/boss_earth_dragon.png",
+        "dungeon_level": 1,
+        "hp" : 5
+    }
+]

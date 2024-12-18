@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>刀の勉強</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body
+    class="bg-yellow-950 text-white h-screen flex items-center justify-center"
+  >
+    <div
+      id="app"
+      class="w-full h-full flex flex-col items-center justify-center"
+      style="
+        background-image: none;
+        background-size: cover;
+        background-position: center center;
+        filter: none;
+      "
+    >
+      <p
+        class="absolute top-12 left-12 p-5 bg-slate-800 text-white text-6xl rounded-xl"
+      >
+        刀の勉強
+      </p>
+
+      <!-- Selector de mazmorras -->
+      <div id="dungeon-selector" class="text-center">
+        <h1 class="text-3xl font-bold mb-4">Select Dungeon</h1>
+        <div id="dungeon-buttons" class="flex flex-col space-y-4"></div>
+      </div>
+
+      <!-- Información del enemigo -->
+      <div id="enemy-info" class="flex flex-col items-center space-y-4">
+        <p id="enemy-character" class="text-4xl font-bold">あ</p>
+        <!-- Nueva barra de salud -->
+        <div class="relative w-64 h-6 bg-gray-700 rounded-lg overflow-hidden">
+          <div
+            id="enemy-health-bar"
+            class="absolute h-full bg-red-500 enemy-health-bar"
+            style="width: 100%"
+          ></div>
+          <p
+            id="enemy-hp-text"
+            class="absolute inset-0 flex items-center justify-center text-white font-bold"
+          >
+            HP: 5
+          </p>
+        </div>
+      </div>
+
+      <!-- Imagen del enemigo -->
+      <div id="enemy-image" class="hidden mt-12 mb-12">
+        <img id="enemy-img" src="" class="max-w-xs max-h-64 object-contain" />
+      </div>
+
+      <!-- Controles del jugador -->
+      <div
+        id="player-controls"
+        class="hidden flex flex-col items-center space-y-4"
+      >
+        <input
+          id="input-box"
+          type="text"
+          placeholder="Escribe aquí..."
+          class="w-64 p-3 text-lg bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <div
+          id="player-info"
+          class="relative w-64 h-6 bg-gray-700 rounded-lg overflow-hidden"
+        >
+          <div
+            id="player-health-bar"
+            class="absolute h-full bg-green-500"
+            style="width: 100%"
+          ></div>
+          <p
+            id="player-hp-text"
+            class="absolute inset-0 flex items-center justify-center text-white font-bold"
+          >
+            HP: 3/3
+          </p>
+        </div>
+      </div>
+      <button
+        id="mute-button"
+        class="absolute top-12 right-12 p-2 bg-gray-800 text-white rounded"
+      >
+        🔊
+      </button>
+      <button
+        id="exit-dungeon"
+        class="absolute bottom-4 p-2 bg-red-900 text-white rounded"
+      >
+        Exit Dungeon
+      </button>
+
+      <!-- Modal de estadísticas -->
+      <div
+        id="game-over-modal"
+        class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+      >
+        <div class="bg-gray-800 text-white rounded-lg shadow-lg p-6 w-2/6">
+          <h2 id="result-title" class="text-3xl font-bold text-center mb-4">
+            Victory
+          </h2>
+          <ul
+            id="game-stats"
+            class="text-2xl space-y-2"
+          >
+            <!-- Aquí se generarán dinámicamente las estadísticas -->
+          </ul>
+          <button
+            id="close-modal"
+            class="mt-6 w-full bg-blue-600 hover:bg-blue-500 text-white py-2 rounded"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

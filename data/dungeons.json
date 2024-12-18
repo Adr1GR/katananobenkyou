@@ -1,0 +1,30 @@
+[
+  {
+    "name": "洞窟の試練",
+    "level": 1,
+    "image": "./assets/images/dungeon_level1/dungeon1.png",
+    "enemies": 1,
+    "bosses": 1
+  },
+  {
+    "name": "炎の迷宮",
+    "level": 2,
+    "image": "./assets/images/dungeon_level2/dungeon2.png",
+    "enemies": 15,
+    "bosses": 1
+  },
+  {
+    "name": "悪魔の深淵",
+    "level": 3,
+    "image": "./assets/images/dungeon_level3/dungeon3.png",
+    "enemies": 20,
+    "bosses": 1
+  },
+  {
+    "name": "Kaishi 1",
+    "level": 4,
+    "image": "./assets/images/dungeon_level4/dungeon4.png",
+    "enemies": 20,
+    "bosses": 1
+  }
+]

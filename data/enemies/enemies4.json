@@ -1,0 +1,16 @@
+[
+  {
+    "type": "enemy",
+    "name": "Voidoll Erebus",
+    "image": "./assets/images/dungeon_level3/voidoll_erebus.png",
+    "dungeon_level": 4,
+    "hp": 3
+  },
+  {
+    "type": "boss",
+    "name": "Boss Dark Queen Shaccad Yoggoth",
+    "image": "./assets/images/dungeon_level3/boss_dark_queen_shaccad_yoggoth.png",
+    "dungeon_level": 4,
+    "hp": 10
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "latin": "kya",
+    "japanese": "きゃ",
+    "translation": "kya, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "kyu",
+    "japanese": "きゅ",
+    "translation": "kyu, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "kyo",
+    "japanese": "きょ",
+    "translation": "kyo, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "sha",
+    "japanese": "しゃ",
+    "translation": "sha, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "shu",
+    "japanese": "しゅ",
+    "translation": "shu, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "sho",
+    "japanese": "しょ",
+    "translation": "sho, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "cha",
+    "japanese": "ちゃ",
+    "translation": "cha, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "chu",
+    "japanese": "ちゅ",
+    "translation": "chu, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "cho",
+    "japanese": "ちょ",
+    "translation": "cho, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "nya",
+    "japanese": "にゃ",
+    "translation": "nya, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "nyu",
+    "japanese": "にゅ",
+    "translation": "nyu, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "nyo",
+    "japanese": "にょ",
+    "translation": "nyo, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "hya",
+    "japanese": "ひゃ",
+    "translation": "hya, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "hyu",
+    "japanese": "ひゅ",
+    "translation": "hyu, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "hyo",
+    "japanese": "ひょ",
+    "translation": "hyo, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "mya",
+    "japanese": "みゃ",
+    "translation": "mya, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "myu",
+    "japanese": "みゅ",
+    "translation": "myu, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "myo",
+    "japanese": "みょ",
+    "translation": "myo, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "rya",
+    "japanese": "りゃ",
+    "translation": "rya, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "ryu",
+    "japanese": "りゅ",
+    "translation": "ryu, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  },
+  {
+    "latin": "ryo",
+    "japanese": "りょ",
+    "translation": "ryo, usado en hiragana",
+    "min_level": 2,
+    "max_level": 2
+  }
+]

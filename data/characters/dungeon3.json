@@ -1,0 +1,224 @@
+[
+  {
+    "japanese": "ア",
+    "latin": "a",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "イ",
+    "latin": "i",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ウ",
+    "latin": "u",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "エ",
+    "latin": "e",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "オ",
+    "latin": "o",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "カ",
+    "latin": "ka",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "キ",
+    "latin": "ki",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ク",
+    "latin": "ku",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ケ",
+    "latin": "ke",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "コ",
+    "latin": "ko",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "キャ",
+    "latin": "kya",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "キュ",
+    "latin": "kyu",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "キョ",
+    "latin": "kyo",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "サ",
+    "latin": "sa",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "シ",
+    "latin": "shi",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ス",
+    "latin": "su",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "セ",
+    "latin": "se",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ソ",
+    "latin": "so",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "シャ",
+    "latin": "sha",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "シュ",
+    "latin": "shu",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ショ",
+    "latin": "sho",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "タ",
+    "latin": "ta",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "チ",
+    "latin": "chi",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ツ",
+    "latin": "tsu",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "テ",
+    "latin": "te",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ト",
+    "latin": "to",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "チャ",
+    "latin": "cha",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "チュ",
+    "latin": "chu",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "チョ",
+    "latin": "cho",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ナ",
+    "latin": "na",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ニ",
+    "latin": "ni",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ヌ",
+    "latin": "nu",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ネ",
+    "latin": "ne",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ノ",
+    "latin": "no",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ニャ",
+    "latin": "nya",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ニュ",
+    "latin": "nyu",
+    "min_level": "3",
+    "max_level": "3"
+  },
+  {
+    "japanese": "ニョ",
+    "latin": "nyo",
+    "min_level": "3",
+    "max_level": "3"
+  }
+]

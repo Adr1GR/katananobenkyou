@@ -1,0 +1,72 @@
+[
+  {
+    "type": "enemy",
+    "name": "Arcane Orb Fire",
+    "image": "./assets/images/dungeon_level2/arcane_fire_orb.png",
+    "dungeon_level": 2,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Fire Wolf",
+    "image": "./assets/images/dungeon_level2/fire_wolf.png",
+    "dungeon_level": 2,
+    "hp": 2
+  },
+  {
+    "type": "enemy",
+    "name": "Fire Bull",
+    "image": "./assets/images/dungeon_level2/fire_bull.png",
+    "dungeon_level": 2,
+    "hp": 2
+  },
+  {
+    "type": "enemy",
+    "name": "Fire Pumice Rock",
+    "image": "./assets/images/dungeon_level2/fire_pumice_rock.png",
+    "dungeon_level": 2,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Fire Salamander",
+    "image": "./assets/images/dungeon_level2/fire_salamander.png",
+    "dungeon_level": 2,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Arcane Orb Fire",
+    "image": "./assets/images/dungeon_level2/arcane_fire_orb.png",
+    "dungeon_level": 2,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Fire Snake",
+    "image": "./assets/images/dungeon_level2/fire_snake.png",
+    "dungeon_level": 2,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Slime Firei",
+    "image": "./assets/images/dungeon_level2/slime_firei.png",
+    "dungeon_level": 2,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Fire Spider",
+    "image": "./assets/images/dungeon_level2/fire_spider.png",
+    "dungeon_level": 2,
+    "hp": 2
+  },
+  {
+    "type": "boss",
+    "name": "Boss Darkness Titan Ilnoct",
+    "image": "./assets/images/dungeon_level2/boss_darkness_titan_ilnoct.png",
+    "dungeon_level": 2,
+    "hp": 8
+  }
+]

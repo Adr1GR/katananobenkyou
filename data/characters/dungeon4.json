@@ -1,0 +1,430 @@
+[
+  {
+    "japanese": "私",
+    "latin": "watashi",
+    "meaning": "I (polite, general)",
+    "phrase": "私はアンです。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "あなた",
+    "latin": "anata",
+    "meaning": "you (usually when one doesn't know the person)",
+    "phrase": "あなたはトムさんですか。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "さん",
+    "latin": "san",
+    "meaning": "san (neutral polite honorific)",
+    "phrase": "あなたはトムさんですか。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "彼",
+    "latin": "kare",
+    "meaning": "he, him",
+    "phrase": "彼はトムさんです。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "好き",
+    "latin": "suki",
+    "meaning": "like, fond of",
+    "phrase": "私はワインが好きです。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "人",
+    "latin": "hito",
+    "meaning": "person",
+    "phrase": "あの人はいい人です。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "いい",
+    "latin": "ii",
+    "meaning": "good",
+    "phrase": "あの人はいい人です。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "人",
+    "latin": "jin",
+    "meaning": "person from (nationality)",
+    "phrase": "私はイギリス人です。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "日本語",
+    "latin": "nihongo",
+    "meaning": "Japanese language",
+    "phrase": "私は日本語を勉強しています。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "勉強",
+    "latin": "benkyou",
+    "meaning": "study",
+    "phrase": "私は日本語を勉強しています。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "本",
+    "latin": "hon",
+    "meaning": "book",
+    "phrase": "いい本でしたね。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "これ",
+    "latin": "kore",
+    "meaning": "this",
+    "phrase": "これは日本語の本です。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "何",
+    "latin": "nani",
+    "meaning": "what",
+    "phrase": "A「これは何ですか。」 B「本です。」",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "それ",
+    "latin": "sore",
+    "meaning": "that",
+    "phrase": "それは本です。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "あれ",
+    "latin": "are",
+    "meaning": "that over there",
+    "phrase": "あれは何ですか。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "どれ",
+    "latin": "dore",
+    "meaning": "which, what",
+    "phrase": "どれが好きですか。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "毎日",
+    "latin": "mainichi",
+    "meaning": "every day",
+    "phrase": "毎日、日本語を勉強します。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "兄",
+    "latin": "ani",
+    "meaning": "older brother",
+    "phrase": "これは兄のパソコンです。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "いる",
+    "latin": "iru",
+    "meaning": "have, exist (animate)",
+    "phrase": "兄がいます。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "ある",
+    "latin": "aru",
+    "meaning": "have, exist (inanimate)",
+    "phrase": "ペンがある。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "あまり",
+    "latin": "amari",
+    "meaning": "(not) very, (not) much",
+    "phrase": "スポーツはあまり好きじゃありません。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "今",
+    "latin": "ima",
+    "meaning": "now",
+    "phrase": "彼は今、勉強しています。",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "時間",
+    "latin": "jikan",
+    "meaning": "time, hour",
+    "phrase": "今は時間がありません。",
+    "translation": "I don't have time now.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "無い",
+    "latin": "nai",
+    "meaning": "to not be",
+    "phrase": "今はあまり時間が無いのです。",
+    "translation": "I don't have much time now.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "この",
+    "latin": "kono",
+    "meaning": "this one",
+    "phrase": "山田さんの本はどれですか。この本ですか。",
+    "translation": "Which book is Yamada-san's? Is it this book?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "その",
+    "latin": "sono",
+    "meaning": "that one",
+    "phrase": "その本ですか。",
+    "translation": "Is it that book?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "あの",
+    "latin": "ano",
+    "meaning": "that one there",
+    "phrase": "あの本ですか。",
+    "translation": "That book over there?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "どの",
+    "latin": "dono",
+    "meaning": "which one",
+    "phrase": "どの本ですか。",
+    "translation": "Which book is it?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "見る",
+    "latin": "miru",
+    "meaning": "see, look at",
+    "phrase": "兄は毎日テレビを見ます。",
+    "translation": "My older brother watches TV every day.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "全然",
+    "latin": "zenzen",
+    "meaning": "(not) at all",
+    "phrase": "テレビを全然見ません。",
+    "translation": "I never watch television.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "面白い",
+    "latin": "omoshiroi",
+    "meaning": "interesting, amusing",
+    "phrase": "この本は全然面白くなかった。",
+    "translation": "This book wasn't interesting at all.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "する",
+    "latin": "suru",
+    "meaning": "do, make",
+    "phrase": "彼はテニスをします。",
+    "translation": "He plays tennis (lit: \"He does tennis\").",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "なる",
+    "latin": "naru",
+    "meaning": "become, result in, come (to do)",
+    "phrase": "日本語の勉強が好きになりました。",
+    "translation": "I have come to like Japanese study.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "先生",
+    "latin": "sensei",
+    "meaning": "teacher",
+    "phrase": "私は日本語の先生になりたいです。",
+    "translation": "I want to become a Japanese teacher.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "ください",
+    "latin": "kudasai",
+    "meaning": "please give..., please do...",
+    "phrase": "コーヒーをください。",
+    "translation": "Please give me a coffee.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "名前",
+    "latin": "namae",
+    "meaning": "name",
+    "phrase": "あなたの名前を教えてください。",
+    "translation": "Please tell me your name.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "教える",
+    "latin": "oshieru",
+    "meaning": "teach, tell",
+    "phrase": "あなたの名前を教えてください。",
+    "translation": "Please tell me your name.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "ここ",
+    "latin": "koko",
+    "meaning": "here",
+    "phrase": "ここに本があります。",
+    "translation": "There's a book here.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "そこ",
+    "latin": "soko",
+    "meaning": "there",
+    "phrase": "そこはトイレです。",
+    "translation": "There is the bathroom.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "あそこ",
+    "latin": "asoko",
+    "meaning": "over there",
+    "phrase": "彼はあそこにいます。",
+    "translation": "He is over there.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "どこ",
+    "latin": "doko",
+    "meaning": "where",
+    "phrase": "あの本をどこに置きましたか。",
+    "translation": "Where did you put that book?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "置く",
+    "latin": "oku",
+    "meaning": "put, place",
+    "phrase": "あの本をどこに置きましたか。",
+    "translation": "Where did you put that book?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "家",
+    "latin": "ie",
+    "meaning": "house, home",
+    "phrase": "ここが私の家です。",
+    "translation": "This is my house.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "帰る",
+    "latin": "kaeru",
+    "meaning": "return, go back",
+    "phrase": "家に帰ろう。",
+    "translation": "Let's go home.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "話",
+    "latin": "hanashi",
+    "meaning": "talk, story",
+    "phrase": "あなたの話は面白いね。",
+    "translation": "Your story is interesting.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "知る",
+    "latin": "shiru",
+    "meaning": "know",
+    "phrase": "あの人を知っていますか。",
+    "translation": "Do you know that person?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "彼女",
+    "latin": "kanojo",
+    "meaning": "she, her, girlfriend",
+    "phrase": "彼女の名前を知っていますか。",
+    "translation": "Do you know her name?",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "ちゃん",
+    "latin": "chan",
+    "meaning": "chan",
+    "phrase": "彼女はララちゃんです。",
+    "translation": "She is Lara-chan.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "はい",
+    "latin": "hai",
+    "meaning": "yes (polite)",
+    "phrase": "A「山田さんですか。」 B「はい。」",
+    "translation": "A: Are you Yamada-san? B: Yes, I am.",
+    "min_level": 4,
+    "max_level": 6
+  },
+  {
+    "japanese": "いいえ",
+    "latin": "iie",
+    "meaning": "no (polite)",
+    "phrase": "A「山田さんですか。」 B「いいえ。」",
+    "translation": "A: Are you Yamada-san? B: No, I'm not.",
+    "min_level": 4,
+    "max_level": 6
+  }
+]

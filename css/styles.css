@@ -1,0 +1,103 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden; /* Evita scroll innecesario */
+}
+
+
+#app {
+  position: relative; /* Asegura su posición en la jerarquía */
+  height: 100vh; /* 100% de la altura del viewport */
+  width: 100vw; /* 100% del ancho del viewport */
+  margin: 0; /* Elimina márgenes innecesarios */
+  padding: 0; /* Elimina rellenos */
+  overflow: hidden; /* Evita el scroll innecesario */
+}
+
+#background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Mantiene el fondo detrás del contenido */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Imagen del enemigo ajustada */
+#enemy-img {
+  max-width: 100%;
+  max-height: 350px; /* Tamaño controlado */
+  object-fit: contain;
+}
+
+.boss-shadow {
+  filter: drop-shadow(0 0 10px purple) drop-shadow(0 0 20px purple);
+}
+
+
+/* Ocultar elementos hasta que sean necesarios */
+.hidden {
+  display: none;
+}
+
+button.relative .absolute {
+  z-index: 0; /* Fondo detrás del texto */
+}
+
+button.relative .relative {
+  z-index: 10; /* Texto por encima */
+}
+
+button:hover .absolute {
+  opacity: 0.8; /* Opcional: Efecto al pasar el cursor */
+}
+
+
+#enemy-hp-text {
+  font-size: 0.9rem; /* Tamaño del texto de HP */
+}
+
+#game-over-modal {
+  z-index: 9999; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+#game-stats {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se distribuyan en varias filas */
+  gap: 1rem; /* Espacio entre columnas */
+  max-height: 60vh; /* Limita la altura del modal */
+  overflow-y: auto; /* Agrega scroll si es necesario */
+}
+
+#game-stats div {
+  flex: 1 1 calc(50% - 1rem); /* Asegura que las columnas ocupen el 50% */
+  min-width: 150px; /* Evita que sean muy pequeñas */
+}
+
+#game-stats p {
+  margin: 0.5rem 0; /* Espaciado vertical entre elementos */
+}
+
+.enemy-health-bar {
+  border: 2px solid #7f1d1d; /* Borde rojo oscuro */
+  transition: width 0.3s ease-in-out;
+  border-radius: 0.375rem;
+}
+
+.boss-health-bar {
+  border: 2px solid #5e002f; /* Borde morado oscuro */
+  transition: width 0.3s ease-in-out;
+  border-radius: 0.375rem;
+}
+/* Barra de vida del jugador con borde verde oscuro */
+#player-health-bar {
+  border: 2px solid #14532d; /* Verde oscuro */
+  transition: width 0.3s ease-in-out; /* Transición suave */
+  border-radius: 0.375rem; /* Redondeado */
+}

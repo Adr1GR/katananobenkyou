@@ -1,0 +1,93 @@
+[
+  {
+    "type": "enemy",
+    "name": "Darkness Banshee",
+    "image": "./assets/images/dungeon_level3/darkness_banshee.png",
+    "dungeon_level": 3,
+    "hp": 3
+  },
+  {
+    "type": "enemy",
+    "name": "Darkness Behemoth",
+    "image": "./assets/images/dungeon_level3/darkness_behemoth.png",
+    "dungeon_level": 3,
+    "hp": 4
+  },
+  {
+    "type": "enemy",
+    "name": "Darkness Blade Colossus",
+    "image": "./assets/images/dungeon_level3/darkness_blade_colossus.png",
+    "dungeon_level": 3,
+    "hp": 4
+  },
+  {
+    "type": "enemy",
+    "name": "Darkness Cultist Mage",
+    "image": "./assets/images/dungeon_level3/darkness_cultist_mage.png",
+    "dungeon_level": 3,
+    "hp": 3
+  },
+  {
+    "type": "enemy",
+    "name": "Darkness Flame",
+    "image": "./assets/images/dungeon_level3/darkness_flame.png",
+    "dungeon_level": 3,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Darkness Slime GhastMallow",
+    "image": "./assets/images/dungeon_level3/darkness_slime_ghastMallow.png",
+    "dungeon_level": 3,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Dragon Dark King",
+    "image": "./assets/images/dungeon_level3/dragon_dark_king.png",
+    "dungeon_level": 3,
+    "hp": 4
+  },
+  {
+    "type": "enemy",
+    "name": "Void Gargoyle",
+    "image": "./assets/images/dungeon_level3/void_gargoyle.png",
+    "dungeon_level": 3,
+    "hp": 3
+  },
+  {
+    "type": "enemy",
+    "name": "Slime Darki",
+    "image": "./assets/images/dungeon_level3/slime_darki.png",
+    "dungeon_level": 3,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Voidoll Erabos",
+    "image": "./assets/images/dungeon_level3/voidoll_erabos.png",
+    "dungeon_level": 3,
+    "hp": 1
+  },
+  {
+    "type": "enemy",
+    "name": "Voidoll Erebia",
+    "image": "./assets/images/dungeon_level3/voidoll_erebia.png",
+    "dungeon_level": 3,
+    "hp": 2
+  },
+  {
+    "type": "enemy",
+    "name": "Voidoll Erebus",
+    "image": "./assets/images/dungeon_level3/voidoll_erebus.png",
+    "dungeon_level": 3,
+    "hp": 3
+  },
+  {
+    "type": "boss",
+    "name": "Boss Dark Queen Shaccad Yoggoth",
+    "image": "./assets/images/dungeon_level3/boss_dark_queen_shaccad_yoggoth.png",
+    "dungeon_level": 3,
+    "hp": 10
+  }
+]
